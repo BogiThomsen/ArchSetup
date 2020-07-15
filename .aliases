@@ -1,0 +1,26 @@
+
+### Navigation
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+alias -- -="cd -"
+
+# All
+alias l="ls -lhA --group-directories-first"
+alias ll="ls -lhA --group-directories-first"
+alias la="ls -lhA --group-directories-first"
+alias lsa="ls -lhA --group-directories-first"
+
+# Only Files
+alias lf="ls -al | grep '^-'"
+alias lsf="ls -al | grep '^-'"
+alias lssymb="ls -al | grep '^[-l]'"
+
+# Only Folder
+alias ld="ls -lda */"
+alias ldh="ls -lda .*/"
+
+# Only hidden
+alias lh="ls -lda {.*/, .*} --group-directories-first"
+alias lsh="ls -lda {.*/, .*} --group-directories-first"

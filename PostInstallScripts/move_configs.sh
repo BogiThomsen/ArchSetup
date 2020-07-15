@@ -8,7 +8,7 @@ cp .bashrc .zshrc ~/
 
 if [ $? != 0 ]; then
   echo ""
-  echo "ERROR copying folders"
+  echo "ERROR copying configs"
   exit 1
 fi
 

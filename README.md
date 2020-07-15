@@ -11,6 +11,7 @@ Termite
 i3-gaps
 Rofi
 i3lock
+Flameshot
 
 # ToDo
 Build save script

@@ -20,7 +20,7 @@ echo "------------------------------------"
 pacman -S --noconfirm --needed \
     termite docker docker-compose \
     git code zsh flameshot yay \
-    13lock feh i3-gaps polybar \
+    feh i3-gaps xorg-xbacklight blueman bluez\
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 

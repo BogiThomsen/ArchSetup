@@ -3,7 +3,7 @@ echo "------------------------------------"
 echo "---------- Moving configs ----------"
 echo "------------------------------------"
 
-cp -r blurlock i3 polybar rofi termite ~/.config/
+cp -r blurlock/ i3/ polybar/ rofi/ termite/ ~/.config/
 cp .bashrc .zshrc ~/
 
 if [ $? != 0 ]; then

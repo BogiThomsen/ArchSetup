@@ -3,8 +3,10 @@ echo "------------------------------------"
 echo "---------- Moving configs ----------"
 echo "------------------------------------"
 
+cd ..
 cp -r blurlock/ i3/ polybar/ rofi/ termite/ ~/.config/
-cp .bashrc .zshrc ~/
+cp .bashrc .zshrc .aliases .fonts/ ~/
+fc-cache -f -v
 
 if [ $? != 0 ]; then
   echo ""

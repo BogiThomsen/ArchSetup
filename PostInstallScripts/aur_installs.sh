@@ -10,7 +10,7 @@ echo "------------------------------------"
 echo "----- Installing AUR packages ------"
 echo "------------------------------------"
 yay -S --noconfirm --needed \
-  spotify google-chrome polybar-git \
+  spotify google-chrome polybar \
   slack-desktop discord i3lock
   
 if [ $? != 0 ]; then
